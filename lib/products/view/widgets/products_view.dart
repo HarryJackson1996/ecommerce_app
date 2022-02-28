@@ -5,7 +5,6 @@ import 'package:primarybid_ecommerce_app/widgets/spacer.dart';
 import 'package:primarybid_ecommerce_app/widgets/themed_text.dart';
 import 'package:shopping/models/store.dart';
 import '../../../cart/bloc/cart_bloc.dart';
-import '../../../widgets/themed_button.dart';
 import '../../../widgets/themed_error.dart';
 import '../../bloc/products_bloc.dart';
 
@@ -28,7 +27,7 @@ class ProductsView extends StatelessWidget {
               errorText: 'Error fetching products from server!',
               onClick: () => context.read<ProductsBloc>().add(
                     ProductsFetchedEvent(
-                      category: Category(name: categoryName, products: []),
+                      category: Category(name: categoryName, products: const []),
                     ),
                   ),
             );

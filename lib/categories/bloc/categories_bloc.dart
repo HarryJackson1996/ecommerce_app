@@ -11,7 +11,7 @@ class CategoriesBloc extends Bloc<CategoriesEvent, CategoriesState> {
 
   CategoriesBloc({
     required this.shoppingRepository,
-  }) : super(CategoriesState(categories: Categories(categories: []))) {
+  }) : super(CategoriesState(categories: Categories(categories: const []))) {
     on<CategoriesFetchedEvent>(_mapCategoriesFetchedToState);
   }
 
