@@ -4,7 +4,6 @@ import 'package:primarybid_ecommerce_app/categories/bloc/categories_bloc.dart';
 import 'package:primarybid_ecommerce_app/routes.dart';
 import 'package:primarybid_ecommerce_app/utils/extensions/string_extension.dart';
 import 'package:primarybid_ecommerce_app/widgets/spacer.dart';
-import 'package:primarybid_ecommerce_app/widgets/themed_button.dart';
 import 'package:primarybid_ecommerce_app/widgets/themed_error.dart';
 import 'package:primarybid_ecommerce_app/widgets/themed_text.dart';
 

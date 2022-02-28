@@ -2,7 +2,8 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:primarybid_ecommerce_app/cart/bloc/cart_bloc.dart';
-import '../../../packages/shopping/shopping.dart';
+import 'package:shopping/models/store.dart';
+import 'package:shopping/shopping_repository.dart';
 
 class MockShoppingRepository extends Mock implements ShoppingRepository {}
 
