@@ -60,7 +60,6 @@ class LoginForm extends StatelessWidget {
         return ThemedTextFormField(
           key: const Key('text_input_username'),
           hintText: 'Username',
-          initialValue: 'mor_2314',
           validator: (username) => state.username.isValidInput('Username'),
           onChanged: (username) => context.read<LoginBloc>().add(LoginUsernameChanged(username: username)),
         );
@@ -76,7 +75,6 @@ class LoginForm extends StatelessWidget {
           key: const Key('text_input_password'),
           hintText: 'Password',
           obscureText: true,
-          initialValue: '83r5^_',
           validator: (password) => state.password.isValidInput('Password'),
           onChanged: (password) => context.read<LoginBloc>().add(LoginPasswordChanged(password: password)),
         );
