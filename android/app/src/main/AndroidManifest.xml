@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.primarybid_ecommerce_app">
+   <uses-permission android:name="android.permission.INTERNET" />
+   
    <application
         android:label="primarybid_ecommerce_app"
         android:name="${applicationName}"
