@@ -1,6 +1,6 @@
 ## Getting Started
 
-To get the Application running you will need to add a .env file to the assets folder.
+To get the Application running you will need to create an assets folder and add a .env file to it.
 There are three properties that you will need to add.
 
 - STORAGE_KEY=''
